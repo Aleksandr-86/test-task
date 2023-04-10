@@ -1,14 +1,10 @@
 <script setup lang="ts">
 import TheSignIn from '@/components/TheSignIn.vue'
 import TheOAuth from '@/components/TheOAuth.vue'
-
-// defineProps<{
-//   msg: string
-// }>()
 </script>
 
 <template>
-  <div class=".flex">
+  <div class="w-screen h-screen flex justify-center bg-amber-100">
     <TheSignIn />
     <TheOAuth />
   </div>
