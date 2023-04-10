@@ -13,7 +13,7 @@ export default defineConfig({
     },
   },
   server: {
-    open: '/index.html',
+    open: '/',
     port: 3000,
   },
 });
