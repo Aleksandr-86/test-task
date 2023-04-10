@@ -20,7 +20,7 @@ const model = computed({
 </script>
 
 <template>
-  <div class="flex items-center space-x-2 pl-1 bg-amber-200">
+  <div class="flex items-center space-x-2 pl-1">
     <input
       class="w-4 h-4 form-checkbox rounded"
       type="checkbox"
