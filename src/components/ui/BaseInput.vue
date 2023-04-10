@@ -23,14 +23,14 @@ const changeInputType = () => {
 </script>
 
 <template>
-  <div class="flex flex-col space-y-1">
+  <div class="flex flex-col space-y-2">
     <div class="h-6">
       <transition
         enter-from-class="opacity-0"
         leave-to-class="opacity-0"
         enter-active-class="transition linear duration-700"
         leave-active-class="transition linear duration-700">
-        <label v-if="inputContentRef" class="font-bold" :for="id">
+        <label v-if="inputContentRef" class="font-bold text-lg" :for="id">
           {{ label }}
         </label>
       </transition>
@@ -38,7 +38,7 @@ const changeInputType = () => {
 
     <div class="relative">
       <input
-        class="h-10 w-full text-2xl shadow-[inset_1px_1px_3px_rgba(0,0,0,0.7)] rounded"
+        class="h-10 w-full text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] rounded"
         :class="[
           { 'px-5': !iconSrc },
           { 'ps-10 pe-5': iconSrc && !showPassword },
@@ -52,10 +52,9 @@ const changeInputType = () => {
         v-model="inputContentRef" />
 
       <!-- Иконка слева -->
-      <img
-        v-if="iconSrc"
-        class="absolute top-2 left-2 w-6 h-6"
-        :src="iconSrc" />
+      <div v-if="iconSrc" class="absolute top-0 left-0 bottom-0 flex p-2">
+        <img :src="iconSrc" />
+      </div>
 
       <!-- Иконка справа -->
       <transition

@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import BaseInput from '@/components/ui/BaseInput.vue'
-// import BaseCheckbox from '@/components/ui/BaseCheckbox.vue.js'
-// import
+import BaseCheckbox from '@/components/ui/BaseCheckbox.vue'
+import { ref } from '@vue/reactivity'
+
+const checkboxIsChecked = ref(false)
 </script>
 
 <template>
@@ -21,26 +23,43 @@ import BaseInput from '@/components/ui/BaseInput.vue'
         <!-- Right column container -->
         <!-- <div class="mb-12 md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12"> -->
 
-        <div>
-          <form>
-            <div class="flex flex-col space-y-3">
+        <div class="select-none">
+          <div class="flex justify-center items-center space-x-3">
+            <img class="h-12" src="icons/cloud-icon.png" />
+            <p class="text-3xl">Aircloud</p>
+          </div>
+
+          <form class="w-[400px]">
+            <div class="flex flex-col">
               <BaseInput
                 label="Эл. почта"
                 type="email"
                 id="email"
                 autocomplete="email"
-                icon-src="icons/key.svg" />
+                icon-src="icons/envelope.svg" />
 
               <BaseInput
                 label="Пароль"
                 type="password"
                 id="password"
                 autocomplete="current-password"
-                icon-src="icons/envelope.svg"
+                icon-src="icons/key.svg"
                 :show-password="true" />
             </div>
 
-            <!-- <BaseCheckbox label="Remember me" value="remember" /> -->
+            <div class="mt-2">
+              <BaseCheckbox
+                label="Запомнить меня"
+                v-model="checkboxIsChecked"
+                :value="true" />
+
+              <div class="flex items-center space-x-2 pl-1 bg-amber-200">
+                <input class="w-4 h-4 form-checkbox rounded opacity-0" />
+                <span class="text-lg">
+                  Запомнить мои регистрационные данные для следующего раза.
+                </span>
+              </div>
+            </div>
 
             <div class="mb-6 flex items-center justify-between">
               <!--Forgot password link-->
