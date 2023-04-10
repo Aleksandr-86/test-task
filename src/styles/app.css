@@ -4,7 +4,7 @@
 
 /* Custom Variables */
 :root {
-  --checkbox: hsl(210, 100%, 90%);
+  --checkbox-base-color: hsl(210, 100%, 90%);
 }
 
 /* Переопределение цветов плагина @tailwindcss/forms
@@ -12,19 +12,19 @@
  */
 
 [type='checkbox'] {
-  background-color: var(--checkbox);
+  background-color: var(--checkbox-base-color);
 }
 
 [type='checkbox']:checked {
   background-image: url('data:image/svg+xml,<svg viewBox="0 0 16 16" fill="rgb(0,0,255)" xmlns="http://www.w3.org/2000/svg"><path d="M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z"/></svg>');
-  background-color: var(--checkbox);
+  background-color: var(--checkbox-base-color);
 }
 
 [type='checkbox']:focus {
-  color: var(--checkbox);
+  color: var(--checkbox-base-color);
 }
 
 [type='checkbox']:hover {
-  color: var(--checkbox);
+  color: var(--checkbox-base-color);
   cursor: pointer;
 }

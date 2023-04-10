@@ -47,6 +47,8 @@ const checkboxIsChecked = ref(false)
               </span>
             </div>
           </div>
+
+          <BaseButton label="Войти" @click="$router.push('after-sign-in')" />
         </form>
       </div>
     </div>
