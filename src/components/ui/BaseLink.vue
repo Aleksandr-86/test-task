@@ -3,7 +3,7 @@
     Don't have an account?
     <a
       href="#!"
-      class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700"
+      class="text-danger hover:text-danger-600 focus:text-danger-600 active:text-danger-700 transition duration-150 ease-in-out"
       >Register</a
     >
   </p>

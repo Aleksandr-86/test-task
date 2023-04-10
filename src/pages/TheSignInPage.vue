@@ -4,7 +4,7 @@ import TheOAuth from '@/components/TheOAuth.vue'
 </script>
 
 <template>
-  <div class="w-screen h-screen flex justify-center">
+  <div class="flex h-screen w-screen justify-center">
     <TheSignIn />
     <TheOAuth />
   </div>

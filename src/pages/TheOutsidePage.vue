@@ -1,7 +1,7 @@
 <template>
-  <div class="w-screen h-screen flex justify-center items-center bg-gray-700">
+  <div class="flex h-screen w-screen items-center justify-center bg-gray-700">
     <div
-      class="flex flex-col items-center space-y-4 text-5xl select-none animate-[rainbow_21s_linear_infinite]">
+      class="flex animate-[rainbow_21s_linear_infinite] select-none flex-col items-center space-y-4 text-5xl">
       <p v-if="$route.name">
         {{ 'Вы находитесь на странице ' + $route.name.toString() }}
       </p>

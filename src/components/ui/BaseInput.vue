@@ -30,7 +30,7 @@ const changeInputType = () => {
         leave-to-class="opacity-0"
         enter-active-class="transition linear duration-700"
         leave-active-class="transition linear duration-700">
-        <label v-if="inputContentRef" class="font-bold text-lg" :for="id">
+        <label v-if="inputContentRef" class="text-lg font-bold" :for="id">
           {{ label }}
         </label>
       </transition>
@@ -38,10 +38,10 @@ const changeInputType = () => {
 
     <div class="relative">
       <input
-        class="h-10 w-full text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] rounded"
+        class="h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)]"
         :class="[
           { 'px-5': !iconSrc },
-          { 'ps-10 pe-5': iconSrc && !showPassword },
+          { 'pe-5 ps-10': iconSrc && !showPassword },
           { 'px-10 ': iconSrc && showPassword }
         ]"
         :type="type === 'password' ? typeRef : type"
@@ -52,7 +52,7 @@ const changeInputType = () => {
         v-model="inputContentRef" />
 
       <!-- Иконка слева -->
-      <div v-if="iconSrc" class="absolute top-0 left-0 bottom-0 flex p-2">
+      <div v-if="iconSrc" class="absolute bottom-0 left-0 top-0 flex p-2">
         <img :src="iconSrc" />
       </div>
 
@@ -65,7 +65,7 @@ const changeInputType = () => {
         <img
           v-if="showPassword && inputContentRef"
           @click="changeInputType"
-          class="absolute top-2 right-2 w-6 h-6 cursor-pointer"
+          class="absolute right-2 top-2 h-6 w-6 cursor-pointer"
           :src="
             typeRef === 'text' ? 'icons/eye-closed.svg' : 'icons/eye-opened.svg'
           " />

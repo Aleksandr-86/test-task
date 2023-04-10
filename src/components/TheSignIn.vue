@@ -11,7 +11,7 @@ const checkboxIsChecked = ref(false)
   <div>
     <div class="h-full">
       <div class="select-none">
-        <div class="flex mb-3 justify-center items-center space-x-3">
+        <div class="mb-3 flex items-center justify-center space-x-3">
           <img class="h-12" src="icons/cloud-icon.png" />
           <p class="text-3xl">Облако</p>
         </div>
@@ -41,7 +41,7 @@ const checkboxIsChecked = ref(false)
               :value="true" />
 
             <div class="flex items-center space-x-2 pl-1">
-              <input class="w-4 h-4 form-checkbox rounded opacity-0" />
+              <input class="form-checkbox h-4 w-4 rounded opacity-0" />
               <span class="text-lg">
                 Запомнить мои регистрационные данные для следующего раза.
               </span>

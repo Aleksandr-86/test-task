@@ -22,7 +22,7 @@ const model = computed({
 <template>
   <div class="flex items-center space-x-2 pl-1">
     <input
-      class="w-4 h-4 form-checkbox rounded"
+      class="form-checkbox h-4 w-4 rounded"
       type="checkbox"
       v-model="model"
       :value="value" />
