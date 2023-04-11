@@ -13,7 +13,7 @@ exports[`Компонент TheSignIn > структура соответств�
           >
             <img
               class="h-12"
-              src="icons/cloud.png"
+              src="/icons/cloud.png"
             />
             <p
               class="text-3xl dark:text-gray-200"
@@ -61,7 +61,7 @@ exports[`Компонент TheSignIn > структура соответств�
                     class="absolute bottom-0 left-0 top-0 flex p-2"
                   >
                     <img
-                      src="icons/envelope.svg"
+                      src="/icons/envelope.svg"
                     />
                   </div>
                   <!-- Иконка справа -->
@@ -112,7 +112,7 @@ exports[`Компонент TheSignIn > структура соответств�
                     class="absolute bottom-0 left-0 top-0 flex p-2"
                   >
                     <img
-                      src="icons/key.svg"
+                      src="/icons/key.svg"
                     />
                   </div>
                   <!-- Иконка справа -->
@@ -208,7 +208,7 @@ exports[`Компонент TheSignIn > структура соответств�
         >
           <img
             class="h-12"
-            src="icons/cloud.png"
+            src="/icons/cloud.png"
           />
           <p
             class="text-3xl dark:text-gray-200"
@@ -256,7 +256,7 @@ exports[`Компонент TheSignIn > структура соответств�
                   class="absolute bottom-0 left-0 top-0 flex p-2"
                 >
                   <img
-                    src="icons/envelope.svg"
+                    src="/icons/envelope.svg"
                   />
                 </div>
                 <!-- Иконка справа -->
@@ -307,7 +307,7 @@ exports[`Компонент TheSignIn > структура соответств�
                   class="absolute bottom-0 left-0 top-0 flex p-2"
                 >
                   <img
-                    src="icons/key.svg"
+                    src="/icons/key.svg"
                   />
                 </div>
                 <!-- Иконка справа -->

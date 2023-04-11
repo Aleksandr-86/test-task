@@ -17,7 +17,7 @@ const checkboxIsChecked = ref(false)
   <div>
     <div class="flex h-full select-none flex-col items-center text-gray-800">
       <div class="mb-3 flex items-center justify-center space-x-3">
-        <img class="h-12" src="icons/cloud.png" />
+        <img class="h-12" src="/icons/cloud.png" />
         <p class="text-3xl dark:text-gray-200">Облако</p>
       </div>
 
@@ -28,14 +28,14 @@ const checkboxIsChecked = ref(false)
             type="email"
             id="email"
             autocomplete="email"
-            icon-src="icons/envelope.svg" />
+            icon-src="/icons/envelope.svg" />
 
           <BaseInput
             label="Пароль"
             type="password"
             id="password"
             autocomplete="current-password"
-            icon-src="icons/key.svg"
+            icon-src="/icons/key.svg"
             :show-password="true" />
         </div>
 

@@ -14,7 +14,7 @@ exports[`Компонент TheOAuth > структура соответству
           <span>
             <img
               class="mr-4"
-              src="icons/google.svg"
+              src="/icons/google.svg"
             />
           </span>
            Войти через Google
@@ -26,7 +26,7 @@ exports[`Компонент TheOAuth > структура соответству
           <span>
             <img
               class="mr-4"
-              src="icons/facebook.svg"
+              src="/icons/facebook.svg"
             />
           </span>
            Войти через Facebook
@@ -38,7 +38,7 @@ exports[`Компонент TheOAuth > структура соответству
           <span>
             <img
               class="mr-4"
-              src="icons/apple-white.svg"
+              src="/icons/apple-white.svg"
             />
           </span>
            Войти через Apple
@@ -57,7 +57,7 @@ exports[`Компонент TheOAuth > структура соответству
         <span>
           <img
             class="mr-4"
-            src="icons/google.svg"
+            src="/icons/google.svg"
           />
         </span>
          Войти через Google
@@ -69,7 +69,7 @@ exports[`Компонент TheOAuth > структура соответству
         <span>
           <img
             class="mr-4"
-            src="icons/facebook.svg"
+            src="/icons/facebook.svg"
           />
         </span>
          Войти через Facebook
@@ -81,7 +81,7 @@ exports[`Компонент TheOAuth > структура соответству
         <span>
           <img
             class="mr-4"
-            src="icons/apple-white.svg"
+            src="/icons/apple-white.svg"
           />
         </span>
          Войти через Apple

@@ -24,7 +24,7 @@ import MySwitcher from '@/components/MySwitcher.vue'
               ваши важные документы <br />в Облаке!
             </span>
           </p>
-          <img class="x h-[480px]" src="pictures/cloud-picture.png" />
+          <img class="x h-[480px]" src="/pictures/cloud-picture.png" />
         </div>
       </div>
     </div>
