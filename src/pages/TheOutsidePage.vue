@@ -9,7 +9,7 @@
         {{ 'Вы находитесь на маршруте: ' + $route.path }}
       </p>
 
-      <RouterLink class="text-blue-700 font-bold dark:text-blue-500" to="/">
+      <RouterLink class="font-bold text-blue-700 dark:text-blue-500" to="/">
         Вернуться назад
       </RouterLink>
     </div>

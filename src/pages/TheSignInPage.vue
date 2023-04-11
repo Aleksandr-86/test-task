@@ -6,9 +6,9 @@ import MySwitcher from '@/components/MySwitcher.vue'
 
 <template>
   <div
-    class="flex h-screen w-screen justify-center items-center dark:bg-gray-800">
-    <div class="h-full flex flex-col gap-20">
-      <MySwitcher class="top-4 left-0" />
+    class="flex h-screen w-screen items-center justify-center dark:bg-gray-800">
+    <div class="flex h-full flex-col gap-20">
+      <MySwitcher class="left-0 top-4" />
 
       <div class="flex gap-20">
         <div>
@@ -16,15 +16,15 @@ import MySwitcher from '@/components/MySwitcher.vue'
           <TheOAuth />
         </div>
 
-        <div class="space-y-24 mt-5">
+        <div class="mt-5 space-y-24">
           <p
-            class="text-5xl font-bold text-center text-gray-800 dark:animate-[rainbow_24s_linear_infinite]">
+            class="text-center text-5xl font-bold text-gray-800 dark:animate-[rainbow_24s_linear_infinite]">
             <span
               >Безопасно загружайте и храните<br />
               ваши важные документы <br />в Облаке!
             </span>
           </p>
-          <img class="w-[800px] h-[450px]" src="pictures/cloud-picture.png" />
+          <img class="h-[450px] w-[800px]" src="pictures/cloud-picture.png" />
         </div>
       </div>
     </div>

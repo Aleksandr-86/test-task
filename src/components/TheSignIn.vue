@@ -16,7 +16,7 @@ const checkboxIsChecked = ref(false)
 <template>
   <div>
     <div class="h-full text-gray-800">
-      <div class="flex flex-col items-center select-none">
+      <div class="flex select-none flex-col items-center">
         <div class="mb-3 flex items-center justify-center space-x-3">
           <img class="h-12" src="icons/cloud.png" />
           <p class="text-3xl dark:text-gray-200">Облако</p>
@@ -61,11 +61,11 @@ const checkboxIsChecked = ref(false)
           <BaseSeparator />
         </form>
 
-        <div class="flex text-lg mt-5 mb-7 dark:text-gray-200 space-x-2">
+        <div class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200">
           <p class="">Не имеете аккаунт?</p>
           <span>
             <RouterLink
-              class="text-blue-700 font-bold dark:text-blue-500"
+              class="font-bold text-blue-700 dark:text-blue-500"
               to="sign-up"
               >Зарегистрируйтесь!</RouterLink
             >

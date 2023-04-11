@@ -41,7 +41,7 @@ const changeInputType = () => {
 
     <div class="relative">
       <input
-        class="h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 outline-solid dark:bg-gray-200"
+        class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200"
         :class="[
           { 'px-5': !iconSrc },
           { 'pe-5 ps-10': iconSrc && !showPassword },
