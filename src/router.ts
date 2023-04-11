@@ -10,7 +10,12 @@ const routes = [
   },
   {
     path: '/after-sign-in',
-    name: 'успешной авторизации',
+    name: 'следующей за успешной авторизацией',
+    component: TheOutsidePage
+  },
+  {
+    path: '/sign-up',
+    name: 'регистрации',
     component: TheOutsidePage
   },
   { path: '/:pathMatch(.*)*', component: TheOutsidePage }

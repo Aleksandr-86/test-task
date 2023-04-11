@@ -32,7 +32,7 @@ const changeInputType = () => {
         leave-active-class="transition linear duration-700">
         <label
           v-if="inputContentRef"
-          class="text-lg font-bold dark:text-gray-200"
+          class="text-lg font-bold text-gray-800 dark:text-gray-200"
           :for="id">
           {{ label }}
         </label>

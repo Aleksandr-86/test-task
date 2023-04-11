@@ -3,6 +3,7 @@ import { ref } from '@vue/reactivity'
 import BaseInput from '@/components/ui/BaseInput.vue'
 import BaseCheckbox from '@/components/ui/BaseCheckbox.vue'
 import BaseButton from '@/components/ui/BaseButton.vue'
+import BaseSeparator from '@/components/ui/BaseSeparator.vue'
 
 /**
  * ! Не выполняет на данный момент никаких функций.
@@ -14,15 +15,15 @@ const checkboxIsChecked = ref(false)
 
 <template>
   <div>
-    <div class="h-full">
-      <div class="select-none">
+    <div class="h-full text-gray-800">
+      <div class="flex flex-col items-center select-none">
         <div class="mb-3 flex items-center justify-center space-x-3">
           <img class="h-12" src="icons/cloud.png" />
           <p class="text-3xl dark:text-gray-200">Облако</p>
         </div>
 
         <form class="w-[400px]">
-          <div class="flex flex-col">
+          <div class="flex flex-col gap-1">
             <BaseInput
               label="Эл. почта"
               type="email"
@@ -39,17 +40,13 @@ const checkboxIsChecked = ref(false)
               :show-password="true" />
           </div>
 
-          <div class="mt-2">
+          <div class="mt-5">
             <BaseCheckbox
               label="Запомнить меня"
               v-model="checkboxIsChecked"
               :value="true" />
 
-            <div class="flex items-center space-x-2 pl-1">
-              <input
-                class="form-checkbox h-4 w-4 rounded opacity-0"
-                name="description"
-                tabindex="-1" />
+            <div class="flex items-center space-x-2 pl-[32.4px]">
               <span class="text-lg dark:text-gray-200">
                 Запомнить мои регистрационные данные для следующего раза.
               </span>
@@ -60,7 +57,20 @@ const checkboxIsChecked = ref(false)
             class="mt-4"
             label="Войти"
             @click="$router.push('after-sign-in')" />
+
+          <BaseSeparator />
         </form>
+
+        <div class="flex text-lg mt-5 mb-7 dark:text-gray-200 space-x-2">
+          <p class="">Не имеете аккаунт?</p>
+          <span>
+            <RouterLink
+              class="text-blue-700 font-bold dark:text-blue-500"
+              to="sign-up"
+              >Зарегистрируйтесь!</RouterLink
+            >
+          </span>
+        </div>
       </div>
     </div>
   </div>
