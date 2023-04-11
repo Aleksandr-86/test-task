@@ -75,5 +75,3 @@ const checkboxIsChecked = ref(false)
     </div>
   </div>
 </template>
-
-<style scoped></style>
