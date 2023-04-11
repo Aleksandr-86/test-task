@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import { fileURLToPath, URL } from 'node:url';
 process.env.BROWSER = 'chrome';
 
@@ -15,5 +16,14 @@ export default defineConfig({
   server: {
     open: '/',
     port: 3000,
+  },
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    coverage: {
+      provider: 'c8',
+      reporter: 'html',
+      reportsDirectory: 'tests/coverage',
+    },
   },
 });

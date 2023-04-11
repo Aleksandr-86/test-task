@@ -1,0 +1,449 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Компонент TheSignIn > структура соответствует снимку 1`] = `
+{
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="flex h-full select-none flex-col items-center text-gray-800"
+        >
+          <div
+            class="mb-3 flex items-center justify-center space-x-3"
+          >
+            <img
+              class="h-12"
+              src="icons/cloud.png"
+            />
+            <p
+              class="text-3xl dark:text-gray-200"
+            >
+              Облако
+            </p>
+          </div>
+          <form
+            class="w-[400px]"
+          >
+            <div
+              class="flex flex-col gap-1"
+            >
+              <div
+                class="flex flex-col space-y-2"
+              >
+                <div
+                  class="h-6"
+                >
+                  <transition-stub
+                    appear="false"
+                    css="true"
+                    enteractiveclass="transition linear duration-700"
+                    enterfromclass="opacity-0"
+                    leaveactiveclass="transition linear duration-700"
+                    leavetoclass="opacity-0"
+                    persisted="false"
+                  >
+                    <!--v-if-->
+                  </transition-stub>
+                </div>
+                <div
+                  class="relative"
+                >
+                  <input
+                    autocomplete="email"
+                    class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 pe-5 ps-10"
+                    id="email"
+                    name="email"
+                    placeholder="Эл. почта"
+                    type="email"
+                  />
+                  <!-- Иконка слева -->
+                  <div
+                    class="absolute bottom-0 left-0 top-0 flex p-2"
+                  >
+                    <img
+                      src="icons/envelope.svg"
+                    />
+                  </div>
+                  <!-- Иконка справа -->
+                  <transition-stub
+                    appear="false"
+                    css="true"
+                    enteractiveclass="transition linear duration-700"
+                    enterfromclass="opacity-0"
+                    leaveactiveclass="transition linear duration-700"
+                    leavetoclass="opacity-0"
+                    persisted="false"
+                  >
+                    <!--v-if-->
+                  </transition-stub>
+                </div>
+              </div>
+              <div
+                class="flex flex-col space-y-2"
+              >
+                <div
+                  class="h-6"
+                >
+                  <transition-stub
+                    appear="false"
+                    css="true"
+                    enteractiveclass="transition linear duration-700"
+                    enterfromclass="opacity-0"
+                    leaveactiveclass="transition linear duration-700"
+                    leavetoclass="opacity-0"
+                    persisted="false"
+                  >
+                    <!--v-if-->
+                  </transition-stub>
+                </div>
+                <div
+                  class="relative"
+                >
+                  <input
+                    autocomplete="current-password"
+                    class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
+                    id="password"
+                    name="password"
+                    placeholder="Пароль"
+                    type="password"
+                  />
+                  <!-- Иконка слева -->
+                  <div
+                    class="absolute bottom-0 left-0 top-0 flex p-2"
+                  >
+                    <img
+                      src="icons/key.svg"
+                    />
+                  </div>
+                  <!-- Иконка справа -->
+                  <transition-stub
+                    appear="false"
+                    css="true"
+                    enteractiveclass="transition linear duration-700"
+                    enterfromclass="opacity-0"
+                    leaveactiveclass="transition linear duration-700"
+                    leavetoclass="opacity-0"
+                    persisted="false"
+                  >
+                    <!--v-if-->
+                  </transition-stub>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mt-5"
+            >
+              <div
+                class="flex items-center space-x-2 pl-1"
+              >
+                <input
+                  class="form-checkbox h-5 w-5 cursor-pointer rounded outline-blue-700 checked:outline-blue-700 focus:outline-blue-700"
+                  name="checkbox"
+                  type="checkbox"
+                  value="true"
+                />
+                <span
+                  class="text-lg font-bold text-gray-800 dark:text-gray-200"
+                >
+                  Запомнить меня
+                </span>
+              </div>
+              <div
+                class="flex items-center space-x-2 pl-[32.4px]"
+              >
+                <span
+                  class="text-lg dark:text-gray-200"
+                >
+                   Запомнить мои регистрационные данные для следующего раза. 
+                </span>
+              </div>
+            </div>
+            <button
+              class="flex h-10 w-full cursor-pointer items-center justify-center rounded-md bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700 mt-4"
+              type="button"
+            >
+              <span>
+                <!--v-if-->
+              </span>
+               Войти
+            </button>
+            <div
+              class="mt-8 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300"
+            >
+              <p
+                class="mx-4 mb-0 text-center text-lg font-semibold dark:text-gray-200"
+              >
+                 Или 
+              </p>
+            </div>
+          </form>
+          <div
+            class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200"
+          >
+            <p
+              class=""
+            >
+              Не имеете аккаунт?
+            </p>
+            <span>
+              <routerlink
+                class="font-bold text-blue-700 dark:text-blue-500"
+                to="sign-up"
+              >
+                Зарегистрируйтесь!
+              </routerlink>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="flex h-full select-none flex-col items-center text-gray-800"
+      >
+        <div
+          class="mb-3 flex items-center justify-center space-x-3"
+        >
+          <img
+            class="h-12"
+            src="icons/cloud.png"
+          />
+          <p
+            class="text-3xl dark:text-gray-200"
+          >
+            Облако
+          </p>
+        </div>
+        <form
+          class="w-[400px]"
+        >
+          <div
+            class="flex flex-col gap-1"
+          >
+            <div
+              class="flex flex-col space-y-2"
+            >
+              <div
+                class="h-6"
+              >
+                <transition-stub
+                  appear="false"
+                  css="true"
+                  enteractiveclass="transition linear duration-700"
+                  enterfromclass="opacity-0"
+                  leaveactiveclass="transition linear duration-700"
+                  leavetoclass="opacity-0"
+                  persisted="false"
+                >
+                  <!--v-if-->
+                </transition-stub>
+              </div>
+              <div
+                class="relative"
+              >
+                <input
+                  autocomplete="email"
+                  class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 pe-5 ps-10"
+                  id="email"
+                  name="email"
+                  placeholder="Эл. почта"
+                  type="email"
+                />
+                <!-- Иконка слева -->
+                <div
+                  class="absolute bottom-0 left-0 top-0 flex p-2"
+                >
+                  <img
+                    src="icons/envelope.svg"
+                  />
+                </div>
+                <!-- Иконка справа -->
+                <transition-stub
+                  appear="false"
+                  css="true"
+                  enteractiveclass="transition linear duration-700"
+                  enterfromclass="opacity-0"
+                  leaveactiveclass="transition linear duration-700"
+                  leavetoclass="opacity-0"
+                  persisted="false"
+                >
+                  <!--v-if-->
+                </transition-stub>
+              </div>
+            </div>
+            <div
+              class="flex flex-col space-y-2"
+            >
+              <div
+                class="h-6"
+              >
+                <transition-stub
+                  appear="false"
+                  css="true"
+                  enteractiveclass="transition linear duration-700"
+                  enterfromclass="opacity-0"
+                  leaveactiveclass="transition linear duration-700"
+                  leavetoclass="opacity-0"
+                  persisted="false"
+                >
+                  <!--v-if-->
+                </transition-stub>
+              </div>
+              <div
+                class="relative"
+              >
+                <input
+                  autocomplete="current-password"
+                  class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
+                  id="password"
+                  name="password"
+                  placeholder="Пароль"
+                  type="password"
+                />
+                <!-- Иконка слева -->
+                <div
+                  class="absolute bottom-0 left-0 top-0 flex p-2"
+                >
+                  <img
+                    src="icons/key.svg"
+                  />
+                </div>
+                <!-- Иконка справа -->
+                <transition-stub
+                  appear="false"
+                  css="true"
+                  enteractiveclass="transition linear duration-700"
+                  enterfromclass="opacity-0"
+                  leaveactiveclass="transition linear duration-700"
+                  leavetoclass="opacity-0"
+                  persisted="false"
+                >
+                  <!--v-if-->
+                </transition-stub>
+              </div>
+            </div>
+          </div>
+          <div
+            class="mt-5"
+          >
+            <div
+              class="flex items-center space-x-2 pl-1"
+            >
+              <input
+                class="form-checkbox h-5 w-5 cursor-pointer rounded outline-blue-700 checked:outline-blue-700 focus:outline-blue-700"
+                name="checkbox"
+                type="checkbox"
+                value="true"
+              />
+              <span
+                class="text-lg font-bold text-gray-800 dark:text-gray-200"
+              >
+                Запомнить меня
+              </span>
+            </div>
+            <div
+              class="flex items-center space-x-2 pl-[32.4px]"
+            >
+              <span
+                class="text-lg dark:text-gray-200"
+              >
+                 Запомнить мои регистрационные данные для следующего раза. 
+              </span>
+            </div>
+          </div>
+          <button
+            class="flex h-10 w-full cursor-pointer items-center justify-center rounded-md bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700 mt-4"
+            type="button"
+          >
+            <span>
+              <!--v-if-->
+            </span>
+             Войти
+          </button>
+          <div
+            class="mt-8 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300"
+          >
+            <p
+              class="mx-4 mb-0 text-center text-lg font-semibold dark:text-gray-200"
+            >
+               Или 
+            </p>
+          </div>
+        </form>
+        <div
+          class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200"
+        >
+          <p
+            class=""
+          >
+            Не имеете аккаунт?
+          </p>
+          <span>
+            <routerlink
+              class="font-bold text-blue-700 dark:text-blue-500"
+              to="sign-up"
+            >
+              Зарегистрируйтесь!
+            </routerlink>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "emitted": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "html": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
