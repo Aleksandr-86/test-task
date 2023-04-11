@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, defineEmits } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps<{
   modelValue: boolean
@@ -24,6 +24,7 @@ const model = computed({
     <input
       class="form-checkbox h-5 w-5 rounded cursor-pointer outline-blue-700 focus:outline-blue-700 checked:outline-blue-700"
       type="checkbox"
+      name="checkbox"
       v-model="model"
       :value="value" />
     <span class="text-lg font-bold dark:text-gray-200">{{ label }}</span>

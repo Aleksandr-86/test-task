@@ -48,6 +48,7 @@ const checkboxIsChecked = ref(false)
             <div class="flex items-center space-x-2 pl-1">
               <input
                 class="form-checkbox h-4 w-4 rounded opacity-0"
+                name="description"
                 tabindex="-1" />
               <span class="text-lg dark:text-gray-200">
                 Запомнить мои регистрационные данные для следующего раза.

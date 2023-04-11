@@ -30,6 +30,7 @@ const toggleSwitch = () => {
       class="appearance-none transition-colors cursor-pointer w-14 h-7 rounded-full border-2 border-gray-300 dark:border-transparent focus:outline-blue-700 dark:checked:bg-blue-700 dark:checked:outline-blue-700 dark:focus:outline-blue-700 dark:focus:outline-double"
       @click="toggleSwitch"
       type="checkbox"
+      name="switcher"
       v-model="themeIsDark" />
     <span
       class="w-7 h-7 right-7 absolute rounded-full transform transition-transform bg-gray-200" />
