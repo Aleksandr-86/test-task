@@ -1,12 +1,11 @@
 <script setup lang="ts">
+import { ref } from '@vue/reactivity'
 import BaseInput from '@/components/ui/BaseInput.vue'
 import BaseCheckbox from '@/components/ui/BaseCheckbox.vue'
 import BaseButton from '@/components/ui/BaseButton.vue'
-import { ref } from '@vue/reactivity'
-import BaseSeparator from './ui/BaseSeparator.vue'
 
 /**
- * Не выполняет на данный момент никаких функций.
+ * ! Не выполняет на данный момент никаких функций.
  * Может быть использована для отслеживании состояния
  * нажатия checkbox.
  */
@@ -54,12 +53,10 @@ const checkboxIsChecked = ref(false)
                 Запомнить мои регистрационные данные для следующего раза.
               </span>
             </div>
-
-            <BaseSeparator />
           </div>
 
           <BaseButton
-            class="mt-2"
+            class="mt-4"
             label="Войти"
             @click="$router.push('after-sign-in')" />
         </form>
