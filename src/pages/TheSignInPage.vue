@@ -5,7 +5,7 @@ import MySwither from '@/components/MySwither.vue'
 </script>
 
 <template>
-  <div class="flex h-screen w-screen justify-center dark:bg-black">
+  <div class="flex h-screen w-screen justify-center dark:bg-gray-800">
     <MySwither />
     <TheSignIn />
     <TheOAuth />

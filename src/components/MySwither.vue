@@ -27,7 +27,7 @@ const toggleSwitch = () => {
   <label
     class="flex items-center h-[28px] relative w-max cursor-pointer select-none">
     <input
-      class="appearance-none transition-colors cursor-pointer w-14 h-7 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black"
+      class="appearance-none transition-colors cursor-pointer w-14 h-7 rounded-full border-2 border-gray-300 dark:border-transparent focus:outline-blue-700 dark:checked:bg-blue-700 dark:checked:outline-blue-700 dark:focus:outline-blue-700 dark:focus:outline-double"
       @click="toggleSwitch"
       type="checkbox"
       v-model="themeIsDark" />

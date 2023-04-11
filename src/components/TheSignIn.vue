@@ -3,25 +3,14 @@ import BaseInput from '@/components/ui/BaseInput.vue'
 import BaseCheckbox from '@/components/ui/BaseCheckbox.vue'
 import BaseButton from '@/components/ui/BaseButton.vue'
 import { ref } from '@vue/reactivity'
+import BaseSeparator from './ui/BaseSeparator.vue'
 
+/**
+ * Не выполняет на данный момент никаких функций.
+ * Может быть использована для отслеживании состояния
+ * нажатия checkbox.
+ */
 const checkboxIsChecked = ref(false)
-
-// const isDark = useDark()
-// const toggleDark = useToggle(isDark)
-// const toggleDark = () => {
-//   console.log('!')
-// }
-// const toggleTheme = () => {
-//   const theme = document.documentElement.classList.value
-
-//   if (theme === '' || theme === 'light') {
-//     document.documentElement.classList.add('dark')
-//     localStorage.theme = 'dark'
-//   } else {
-//     document.documentElement.classList.remove('dark')
-//     localStorage.theme = 'light'
-//   }
-// }
 </script>
 
 <template>
@@ -30,7 +19,7 @@ const checkboxIsChecked = ref(false)
       <div class="select-none">
         <div class="mb-3 flex items-center justify-center space-x-3">
           <img class="h-12" src="icons/cloud-icon.png" />
-          <p class="text-3xl">Облако</p>
+          <p class="text-3xl dark:text-gray-200">Облако</p>
         </div>
 
         <form class="w-[400px]">
@@ -61,10 +50,12 @@ const checkboxIsChecked = ref(false)
               <input
                 class="form-checkbox h-4 w-4 rounded opacity-0"
                 tabindex="-1" />
-              <span class="text-lg">
+              <span class="text-lg dark:text-gray-200">
                 Запомнить мои регистрационные данные для следующего раза.
               </span>
             </div>
+
+            <BaseSeparator />
           </div>
 
           <BaseButton
@@ -72,8 +63,6 @@ const checkboxIsChecked = ref(false)
             label="Войти"
             @click="$router.push('after-sign-in')" />
         </form>
-
-        <!-- <button @click="toggleTheme">RYJGREF</button> -->
       </div>
     </div>
   </div>

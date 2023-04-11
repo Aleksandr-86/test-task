@@ -22,10 +22,10 @@ const model = computed({
 <template>
   <div class="flex items-center space-x-2 pl-1">
     <input
-      class="form-checkbox h-4 w-4 rounded"
+      class="form-checkbox h-5 w-5 rounded cursor-pointer outline-blue-700 focus:outline-blue-700 checked:outline-blue-700"
       type="checkbox"
       v-model="model"
       :value="value" />
-    <span class="text-lg font-bold">{{ label }}</span>
+    <span class="text-lg font-bold dark:text-gray-200">{{ label }}</span>
   </div>
 </template>
