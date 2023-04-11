@@ -16,7 +16,7 @@ import MySwitcher from '@/components/MySwitcher.vue'
           <TheOAuth />
         </div>
 
-        <div class="mt-5 space-y-24">
+        <div class="mt-5 w-[850px] space-y-24">
           <p
             class="text-center text-5xl font-bold text-gray-800 dark:animate-[rainbow_24s_linear_infinite]">
             <span
@@ -24,7 +24,7 @@ import MySwitcher from '@/components/MySwitcher.vue'
               ваши важные документы <br />в Облаке!
             </span>
           </p>
-          <img class="x h-[480px]" src="/pictures/cloud-picture.png" />
+          <img class="x w-[850px]" src="/pictures/cloud-picture.png" />
         </div>
       </div>
     </div>

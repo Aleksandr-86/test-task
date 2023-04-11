@@ -10,9 +10,7 @@ exports[`Компонент BaseButton > структура соответств
         type="button"
         value="true"
       >
-        <span>
-          <!--v-if-->
-        </span>
+        <!--v-if-->
          mockLabel
       </button>
     </div>
@@ -24,9 +22,7 @@ exports[`Компонент BaseButton > структура соответств
       type="button"
       value="true"
     >
-      <span>
-        <!--v-if-->
-      </span>
+      <!--v-if-->
        mockLabel
     </button>
   </div>,
