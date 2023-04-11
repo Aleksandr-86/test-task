@@ -1,0 +1,37 @@
+<script setup lang="ts">
+import { ref } from '@vue/reactivity'
+import { onMounted } from 'vue'
+
+const themeIsDark = ref(false)
+
+onMounted(() => {
+  if (localStorage.theme === 'dark') {
+    themeIsDark.value = true
+  } else {
+    themeIsDark.value = false
+  }
+})
+
+const toggleSwitch = () => {
+  if (themeIsDark.value === true) {
+    document.documentElement.classList.remove('dark')
+    localStorage.theme = 'light'
+  } else {
+    document.documentElement.classList.add('dark')
+    localStorage.theme = 'dark'
+  }
+}
+</script>
+
+<template>
+  <label
+    class="flex items-center h-[28px] relative w-max cursor-pointer select-none">
+    <input
+      class="appearance-none transition-colors cursor-pointer w-14 h-7 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black"
+      @click="toggleSwitch"
+      type="checkbox"
+      v-model="themeIsDark" />
+    <span
+      class="w-7 h-7 right-7 absolute rounded-full transform transition-transform bg-gray-200" />
+  </label>
+</template>
