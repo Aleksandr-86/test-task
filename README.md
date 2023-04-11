@@ -1,5 +1,5 @@
 <h3 align="center">
-  <a href="">
+  <a href="https://test-task-ten-phi.vercel.app/">
     💼 Тестовое задание
   </a>
 </h3>
@@ -31,13 +31,25 @@
 
 Образец:
 
-![image](https://user-images.githubusercontent.com/96790009/231062884-81577921-3e4e-419b-8a8d-9574a0aa66ef.png)
+<div align="center">
+  <a href="">
+    <img src="https://user-images.githubusercontent.com/96790009/231066252-83b0854f-de2b-4358-ba97-598a56637f0b.png"/>
+  </a>
+</div>
 
 Результат:
 
-![image](https://user-images.githubusercontent.com/96790009/231063340-0dba99e0-b67f-48e0-b274-4597a13bdadc.png)
+<div align="center">
+  <a href="https://test-task-ten-phi.vercel.app/">
+    <img src="https://user-images.githubusercontent.com/96790009/231063340-0dba99e0-b67f-48e0-b274-4597a13bdadc.png"/>
+  </a>
+</div>
 
-![image](https://user-images.githubusercontent.com/96790009/231063034-f9d9991b-c71a-4f65-97d9-779a3533a2e1.png)
+<div align="center">
+  <a href="https://test-task-ten-phi.vercel.app/">
+    <img src="https://user-images.githubusercontent.com/96790009/231063034-f9d9991b-c71a-4f65-97d9-779a3533a2e1.png"/>
+  </a>
+</div>
 
 ### Установка и запуск:
 
