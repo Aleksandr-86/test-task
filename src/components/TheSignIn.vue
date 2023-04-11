@@ -17,7 +17,7 @@ const checkboxIsChecked = ref(false)
     <div class="h-full">
       <div class="select-none">
         <div class="mb-3 flex items-center justify-center space-x-3">
-          <img class="h-12" src="icons/cloud-icon.png" />
+          <img class="h-12" src="icons/cloud.png" />
           <p class="text-3xl dark:text-gray-200">Облако</p>
         </div>
 

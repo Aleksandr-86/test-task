@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { ref } from '@vue/reactivity'
 import { onMounted } from 'vue'
-
-const themeIsDark = ref(false)
+import { themeIsDark } from '@/store/theme'
 
 onMounted(() => {
   if (localStorage.theme === 'dark') {
