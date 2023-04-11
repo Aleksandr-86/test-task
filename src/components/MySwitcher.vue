@@ -31,6 +31,6 @@ const toggleSwitch = () => {
       name="switcher"
       v-model="themeIsDark" />
     <span
-      class="absolute right-7 h-7 w-7 transform rounded-full bg-gray-200 transition-transform" />
+      class="absolute right-7 h-7 w-7 transform rounded-full bg-gray-300 transition-transform" />
   </label>
 </template>

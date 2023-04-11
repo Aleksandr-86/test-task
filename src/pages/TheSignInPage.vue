@@ -10,7 +10,7 @@ import MySwitcher from '@/components/MySwitcher.vue'
     <div class="flex h-full flex-col gap-20">
       <MySwitcher class="left-0 top-4" />
 
-      <div class="flex gap-20">
+      <div class="flex gap-28">
         <div>
           <TheSignIn />
           <TheOAuth />
@@ -24,7 +24,7 @@ import MySwitcher from '@/components/MySwitcher.vue'
               ваши важные документы <br />в Облаке!
             </span>
           </p>
-          <img class="h-[450px] w-[800px]" src="pictures/cloud-picture.png" />
+          <img class="x h-[480px]" src="pictures/cloud-picture.png" />
         </div>
       </div>
     </div>
