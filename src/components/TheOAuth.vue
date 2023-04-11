@@ -5,15 +5,23 @@ import BaseButton from '@/components/ui/BaseButton.vue'
 
 <template>
   <div class="space-y-3">
-    <BaseButton label="Войти через Google" icon-src="icons/google.svg" />
-    <BaseButton label="Войти через Facebook" icon-src="icons/facebook.svg" />
+    <BaseButton
+      @click="$router.push('sign-in-google')"
+      label="Войти через Google"
+      icon-src="icons/google.svg" />
+    <BaseButton
+      @click="$router.push('sign-in-facebook')"
+      label="Войти через Facebook"
+      icon-src="icons/facebook.svg" />
 
     <BaseButton
       v-if="themeIsDark"
+      @click="$router.push('sign-in-apple')"
       label="Войти через Apple"
       icon-src="icons/apple-black.svg" />
     <BaseButton
       v-else
+      @click="$router.push('sign-in-apple')"
       label="Войти через Apple"
       icon-src="icons/apple-white.svg" />
   </div>

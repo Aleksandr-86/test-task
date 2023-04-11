@@ -55,8 +55,8 @@ const checkboxIsChecked = ref(false)
 
           <BaseButton
             class="mt-4"
-            label="Войти"
-            @click="$router.push('after-sign-in')" />
+            @click="$router.push('after-sign-in')"
+            label="Войти"/>
 
           <BaseSeparator />
         </form>
