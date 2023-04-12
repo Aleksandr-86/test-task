@@ -41,11 +41,11 @@ const changeInputType = () => {
 
     <div class="relative">
       <input
-        class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200"
+        class="outline-solid h-12 w-full rounded text-3xl shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200"
         :class="[
-          { 'px-5': !iconSrc },
-          { 'pe-5 ps-10': iconSrc && !showPassword },
-          { 'px-10 ': iconSrc && showPassword }
+          { 'px-2': !iconSrc },
+          { 'pe-3 ps-12': iconSrc && !showPassword },
+          { 'px-12 ': iconSrc && showPassword }
         ]"
         :type="type === 'password' ? typeRef : type"
         :name="id"
@@ -65,13 +65,18 @@ const changeInputType = () => {
         leave-to-class="opacity-0"
         enter-active-class="transition linear duration-700"
         leave-active-class="transition linear duration-700">
-        <img
+        <div
           v-if="showPassword && inputContentRef"
-          @click="changeInputType"
-          class="absolute right-2 top-2 h-6 w-6 cursor-pointer"
-          :src="
-            typeRef === 'text' ? 'icons/eye-closed.svg' : 'icons/eye-opened.svg'
-          " />
+          class="absolute right-0 top-0 flex h-12 w-12 cursor-pointer items-center justify-center">
+          <img
+            @click="changeInputType"
+            class="h-8 w-8"
+            :src="
+              typeRef === 'text'
+                ? 'icons/eye-closed.svg'
+                : 'icons/eye-opened.svg'
+            " />
+        </div>
       </transition>
     </div>
   </div>

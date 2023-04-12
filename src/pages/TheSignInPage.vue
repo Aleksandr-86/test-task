@@ -6,12 +6,12 @@ import MySwitcher from '@/components/MySwitcher.vue'
 
 <template>
   <div
-    class="flex h-screen w-screen items-center justify-center dark:bg-gray-800">
+    class="flex h-screen w-screen items-center justify-center text-gray-800 dark:bg-gray-800">
     <div class="flex h-full flex-col gap-20">
       <MySwitcher class="left-0 top-4" />
 
       <div class="flex gap-28">
-        <div>
+        <div class="">
           <TheSignIn />
           <TheOAuth />
         </div>
