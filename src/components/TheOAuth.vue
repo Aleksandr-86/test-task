@@ -4,7 +4,7 @@ import BaseButton from '@/components/ui/BaseButton.vue'
 </script>
 
 <template>
-  <div class="space-y-3">
+  <div class="w-80 space-y-3">
     <BaseButton
       @click="$router.push('sign-in-google')"
       label="Войти через Google"

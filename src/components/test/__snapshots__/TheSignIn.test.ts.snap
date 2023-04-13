@@ -4,208 +4,11 @@ exports[`Компонент TheSignIn > структура соответств�
 {
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          class="flex h-full select-none flex-col items-center text-gray-800"
-        >
-          <div
-            class="mb-3 flex items-center justify-center space-x-3"
-          >
-            <div
-              class="h-12 w-20"
-            >
-              <img
-                src="/icons/cloud.png"
-              />
-            </div>
-            <p
-              class="text-3xl dark:text-gray-200"
-            >
-              Облако
-            </p>
-          </div>
-          <form
-            class="w-[400px]"
-          >
-            <div
-              class="flex flex-col gap-1"
-            >
-              <div
-                class="flex flex-col space-y-2"
-              >
-                <div
-                  class="h-6"
-                >
-                  <transition-stub
-                    appear="false"
-                    css="true"
-                    enteractiveclass="transition linear duration-700"
-                    enterfromclass="opacity-0"
-                    leaveactiveclass="transition linear duration-700"
-                    leavetoclass="opacity-0"
-                    persisted="false"
-                  >
-                    <!--v-if-->
-                  </transition-stub>
-                </div>
-                <div
-                  class="relative"
-                >
-                  <input
-                    autocomplete="email"
-                    class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 pe-5 ps-10"
-                    id="email"
-                    name="email"
-                    placeholder="Эл. почта"
-                    type="email"
-                  />
-                  <!-- Иконка слева -->
-                  <div
-                    class="absolute bottom-0 left-0 top-0 flex p-2"
-                  >
-                    <img
-                      src="/icons/envelope.svg"
-                    />
-                  </div>
-                  <!-- Иконка справа -->
-                  <transition-stub
-                    appear="false"
-                    css="true"
-                    enteractiveclass="transition linear duration-700"
-                    enterfromclass="opacity-0"
-                    leaveactiveclass="transition linear duration-700"
-                    leavetoclass="opacity-0"
-                    persisted="false"
-                  >
-                    <!--v-if-->
-                  </transition-stub>
-                </div>
-              </div>
-              <div
-                class="flex flex-col space-y-2"
-              >
-                <div
-                  class="h-6"
-                >
-                  <transition-stub
-                    appear="false"
-                    css="true"
-                    enteractiveclass="transition linear duration-700"
-                    enterfromclass="opacity-0"
-                    leaveactiveclass="transition linear duration-700"
-                    leavetoclass="opacity-0"
-                    persisted="false"
-                  >
-                    <!--v-if-->
-                  </transition-stub>
-                </div>
-                <div
-                  class="relative"
-                >
-                  <input
-                    autocomplete="current-password"
-                    class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
-                    id="password"
-                    name="password"
-                    placeholder="Пароль"
-                    type="password"
-                  />
-                  <!-- Иконка слева -->
-                  <div
-                    class="absolute bottom-0 left-0 top-0 flex p-2"
-                  >
-                    <img
-                      src="/icons/key.svg"
-                    />
-                  </div>
-                  <!-- Иконка справа -->
-                  <transition-stub
-                    appear="false"
-                    css="true"
-                    enteractiveclass="transition linear duration-700"
-                    enterfromclass="opacity-0"
-                    leaveactiveclass="transition linear duration-700"
-                    leavetoclass="opacity-0"
-                    persisted="false"
-                  >
-                    <!--v-if-->
-                  </transition-stub>
-                </div>
-              </div>
-            </div>
-            <div
-              class="mt-5"
-            >
-              <div
-                class="flex items-center space-x-2 pl-1"
-              >
-                <input
-                  class="form-checkbox h-5 w-5 cursor-pointer rounded outline-blue-700 checked:outline-blue-700 focus:outline-blue-700"
-                  name="checkbox"
-                  type="checkbox"
-                  value="true"
-                />
-                <span
-                  class="text-lg font-bold text-gray-800 dark:text-gray-200"
-                >
-                  Запомнить меня
-                </span>
-              </div>
-              <div
-                class="flex items-center space-x-2 pl-[32.4px]"
-              >
-                <span
-                  class="text-lg dark:text-gray-200"
-                >
-                   Запомнить мои регистрационные данные для следующего раза. 
-                </span>
-              </div>
-            </div>
-            <button
-              class="flex h-10 w-full cursor-pointer items-center justify-center rounded-md bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700 mt-4"
-              type="button"
-            >
-              <!--v-if-->
-               Войти
-            </button>
-            <div
-              class="mt-8 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300"
-            >
-              <p
-                class="mx-4 mb-0 text-center text-lg font-semibold dark:text-gray-200"
-              >
-                 Или 
-              </p>
-            </div>
-          </form>
-          <div
-            class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200"
-          >
-            <p
-              class=""
-            >
-              Не имеете аккаунт?
-            </p>
-            <span>
-              <routerlink
-                class="font-bold text-blue-700 dark:text-blue-500"
-                to="sign-up"
-              >
-                Зарегистрируйтесь!
-              </routerlink>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        class="flex h-full select-none flex-col items-center text-gray-800"
+        class="flex w-[353px] select-none flex-col items-center"
       >
         <div
-          class="mb-3 flex items-center justify-center space-x-3"
+          class="mb-2 mt-7 flex items-center justify-center space-x-3"
         >
           <div
             class="h-12 w-20"
@@ -215,13 +18,13 @@ exports[`Компонент TheSignIn > структура соответств�
             />
           </div>
           <p
-            class="text-3xl dark:text-gray-200"
+            class="text-3xl"
           >
             Облако
           </p>
         </div>
         <form
-          class="w-[400px]"
+          class="bg-red flex flex-col"
         >
           <div
             class="flex flex-col gap-1"
@@ -249,7 +52,7 @@ exports[`Компонент TheSignIn > структура соответств�
               >
                 <input
                   autocomplete="email"
-                  class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 pe-5 ps-10"
+                  class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 pe-3 ps-12"
                   id="email"
                   name="email"
                   placeholder="Эл. почта"
@@ -300,7 +103,7 @@ exports[`Компонент TheSignIn > структура соответств�
               >
                 <input
                   autocomplete="current-password"
-                  class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
+                  class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 px-12"
                   id="password"
                   name="password"
                   placeholder="Пароль"
@@ -333,7 +136,7 @@ exports[`Компонент TheSignIn > структура соответств�
             class="mt-5"
           >
             <div
-              class="flex items-center space-x-2 pl-1"
+              class="flex items-center space-x-2 px-1"
             >
               <input
                 class="form-checkbox h-5 w-5 cursor-pointer rounded outline-blue-700 checked:outline-blue-700 focus:outline-blue-700"
@@ -342,40 +145,46 @@ exports[`Компонент TheSignIn > структура соответств�
                 value="true"
               />
               <span
-                class="text-lg font-bold text-gray-800 dark:text-gray-200"
+                class="font-bold"
               >
                 Запомнить меня
               </span>
             </div>
             <div
-              class="flex items-center space-x-2 pl-[32.4px]"
+              class="flex items-center pl-[32.5px]"
             >
-              <span
-                class="text-lg dark:text-gray-200"
-              >
+              <span>
                  Запомнить мои регистрационные данные для следующего раза. 
               </span>
             </div>
           </div>
-          <button
-            class="flex h-10 w-full cursor-pointer items-center justify-center rounded-md bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700 mt-4"
-            type="button"
-          >
-            <!--v-if-->
-             Войти
-          </button>
           <div
-            class="mt-8 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300"
+            class="flex justify-center"
+          >
+            <div
+              class="mt-5 w-80"
+            >
+              <button
+                class="flex h-12 w-full cursor-pointer items-center justify-center rounded-lg bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700"
+                type="button"
+              >
+                <!--v-if-->
+                 Войти
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex px-1 items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 mt-5"
           >
             <p
-              class="mx-4 mb-0 text-center text-lg font-semibold dark:text-gray-200"
+              class="mx-4 mb-0 text-center font-semibold"
             >
-               Или 
+              Или
             </p>
           </div>
         </form>
         <div
-          class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200"
+          class="mb-5 mt-3 flex space-x-2"
         >
           <p
             class=""
@@ -391,6 +200,205 @@ exports[`Компонент TheSignIn > структура соответств�
             </routerlink>
           </span>
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex w-[353px] select-none flex-col items-center"
+    >
+      <div
+        class="mb-2 mt-7 flex items-center justify-center space-x-3"
+      >
+        <div
+          class="h-12 w-20"
+        >
+          <img
+            src="/icons/cloud.png"
+          />
+        </div>
+        <p
+          class="text-3xl"
+        >
+          Облако
+        </p>
+      </div>
+      <form
+        class="bg-red flex flex-col"
+      >
+        <div
+          class="flex flex-col gap-1"
+        >
+          <div
+            class="flex flex-col space-y-2"
+          >
+            <div
+              class="h-6"
+            >
+              <transition-stub
+                appear="false"
+                css="true"
+                enteractiveclass="transition linear duration-700"
+                enterfromclass="opacity-0"
+                leaveactiveclass="transition linear duration-700"
+                leavetoclass="opacity-0"
+                persisted="false"
+              >
+                <!--v-if-->
+              </transition-stub>
+            </div>
+            <div
+              class="relative"
+            >
+              <input
+                autocomplete="email"
+                class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 pe-3 ps-12"
+                id="email"
+                name="email"
+                placeholder="Эл. почта"
+                type="email"
+              />
+              <!-- Иконка слева -->
+              <div
+                class="absolute bottom-0 left-0 top-0 flex p-2"
+              >
+                <img
+                  src="/icons/envelope.svg"
+                />
+              </div>
+              <!-- Иконка справа -->
+              <transition-stub
+                appear="false"
+                css="true"
+                enteractiveclass="transition linear duration-700"
+                enterfromclass="opacity-0"
+                leaveactiveclass="transition linear duration-700"
+                leavetoclass="opacity-0"
+                persisted="false"
+              >
+                <!--v-if-->
+              </transition-stub>
+            </div>
+          </div>
+          <div
+            class="flex flex-col space-y-2"
+          >
+            <div
+              class="h-6"
+            >
+              <transition-stub
+                appear="false"
+                css="true"
+                enteractiveclass="transition linear duration-700"
+                enterfromclass="opacity-0"
+                leaveactiveclass="transition linear duration-700"
+                leavetoclass="opacity-0"
+                persisted="false"
+              >
+                <!--v-if-->
+              </transition-stub>
+            </div>
+            <div
+              class="relative"
+            >
+              <input
+                autocomplete="current-password"
+                class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 px-12"
+                id="password"
+                name="password"
+                placeholder="Пароль"
+                type="password"
+              />
+              <!-- Иконка слева -->
+              <div
+                class="absolute bottom-0 left-0 top-0 flex p-2"
+              >
+                <img
+                  src="/icons/key.svg"
+                />
+              </div>
+              <!-- Иконка справа -->
+              <transition-stub
+                appear="false"
+                css="true"
+                enteractiveclass="transition linear duration-700"
+                enterfromclass="opacity-0"
+                leaveactiveclass="transition linear duration-700"
+                leavetoclass="opacity-0"
+                persisted="false"
+              >
+                <!--v-if-->
+              </transition-stub>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-5"
+        >
+          <div
+            class="flex items-center space-x-2 px-1"
+          >
+            <input
+              class="form-checkbox h-5 w-5 cursor-pointer rounded outline-blue-700 checked:outline-blue-700 focus:outline-blue-700"
+              name="checkbox"
+              type="checkbox"
+              value="true"
+            />
+            <span
+              class="font-bold"
+            >
+              Запомнить меня
+            </span>
+          </div>
+          <div
+            class="flex items-center pl-[32.5px]"
+          >
+            <span>
+               Запомнить мои регистрационные данные для следующего раза. 
+            </span>
+          </div>
+        </div>
+        <div
+          class="flex justify-center"
+        >
+          <div
+            class="mt-5 w-80"
+          >
+            <button
+              class="flex h-12 w-full cursor-pointer items-center justify-center rounded-lg bg-blue-700 text-2xl font-bold text-gray-200 dark:bg-blue-100 dark:text-gray-700"
+              type="button"
+            >
+              <!--v-if-->
+               Войти
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex px-1 items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 mt-5"
+        >
+          <p
+            class="mx-4 mb-0 text-center font-semibold"
+          >
+            Или
+          </p>
+        </div>
+      </form>
+      <div
+        class="mb-5 mt-3 flex space-x-2"
+      >
+        <p
+          class=""
+        >
+          Не имеете аккаунт?
+        </p>
+        <span>
+          <routerlink
+            class="font-bold text-blue-700 dark:text-blue-500"
+            to="sign-up"
+          >
+            Зарегистрируйтесь!
+          </routerlink>
+        </span>
       </div>
     </div>
   </div>,

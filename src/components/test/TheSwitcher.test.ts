@@ -1,9 +1,9 @@
 import { render } from '@testing-library/vue'
-import MySwitcher from '@/components/MySwitcher.vue'
+import TheSwitcher from '@/components/TheSwitcher.vue'
 
-describe('Компонент MySwitcher', () => {
+describe('Компонент TheSwitcher', () => {
   it('структура соответствует снимку', () => {
-    const wrapper = render(MySwitcher, {})
+    const wrapper = render(TheSwitcher, {})
 
     expect(wrapper).toMatchSnapshot()
   })

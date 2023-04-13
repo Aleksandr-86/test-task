@@ -25,12 +25,12 @@ const toggleSwitch = () => {
   <label
     class="relative flex h-[28px] w-max cursor-pointer select-none items-center">
     <input
-      class="h-7 w-14 cursor-pointer appearance-none rounded-full border-2 border-gray-300 transition-colors focus:outline-blue-700 dark:border-transparent dark:checked:bg-blue-700 dark:checked:outline-blue-700 dark:focus:outline-double dark:focus:outline-blue-700"
+      class="h-7 w-14 cursor-pointer appearance-none rounded-full border-2 border-gray-400 transition-colors focus:outline-blue-700 dark:border-transparent dark:checked:bg-blue-700 dark:checked:outline-blue-700 dark:focus:outline-double dark:focus:outline-blue-700"
       @click="toggleSwitch"
       type="checkbox"
       name="switcher"
       v-model="themeIsDark" />
     <span
-      class="absolute right-7 h-7 w-7 transform rounded-full bg-gray-300 transition-transform" />
+      class="absolute right-7 h-7 w-7 transform rounded-full bg-gray-400 dark:bg-gray-300 transition-transform" />
   </label>
 </template>
