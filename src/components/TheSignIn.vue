@@ -14,15 +14,15 @@ const checkboxIsChecked = ref(false)
 </script>
 
 <template>
-  <div class="flex w-[353px] select-none flex-col items-center justify-end">
-    <div class="mb-3 flex items-center justify-center space-x-3">
+  <div class="flex w-[353px] select-none flex-col items-center">
+    <div class="mb-2 mt-7 flex items-center justify-center space-x-3">
       <div class="h-12 w-20">
         <img src="/icons/cloud.png" />
       </div>
-      <p class="text-3xl dark:text-gray-200">Облако</p>
+      <p class="text-3xl">Облако</p>
     </div>
 
-    <form class="">
+    <form class="bg-red flex flex-col">
       <div class="flex flex-col gap-1">
         <BaseInput
           label="Эл. почта"
@@ -46,22 +46,24 @@ const checkboxIsChecked = ref(false)
           v-model="checkboxIsChecked"
           :value="true" />
 
-        <div class="flex items-center space-x-2 pl-[32.4px]">
-          <span class="text-lg dark:text-gray-200">
+        <div class="flex items-center pl-[32.5px]">
+          <span>
             Запомнить мои регистрационные данные для следующего раза.
           </span>
         </div>
       </div>
 
-      <BaseButton
-        class="mt-4"
-        @click="$router.push('after-sign-in')"
-        label="Войти" />
+      <div class="flex flex-col items-center">
+        <BaseButton
+          class="mt-5 w-80"
+          @click="$router.push('after-sign-in')"
+          label="Войти" />
+      </div>
 
-      <BaseSeparator />
+      <BaseSeparator class="mt-5" />
     </form>
 
-    <div class="mb-7 mt-5 flex space-x-2 text-lg dark:text-gray-200">
+    <div class="mb-5 mt-3 flex space-x-2">
       <p class="">Не имеете аккаунт?</p>
       <span>
         <RouterLink

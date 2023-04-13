@@ -27,7 +27,7 @@ exports[`Компонент BaseInput > структура соответств�
         >
           <input
             autocomplete="password"
-            class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
+            class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 px-12"
             id="field"
             name="field"
             placeholder="Поле"
@@ -81,7 +81,7 @@ exports[`Компонент BaseInput > структура соответств�
       >
         <input
           autocomplete="password"
-          class="outline-solid h-10 w-full rounded text-2xl shadow-[inset_1px_1px_2px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200 px-10"
+          class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200 px-12"
           id="field"
           name="field"
           placeholder="Поле"

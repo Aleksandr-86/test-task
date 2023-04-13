@@ -30,10 +30,7 @@ const changeInputType = () => {
         leave-to-class="opacity-0"
         enter-active-class="transition linear duration-700"
         leave-active-class="transition linear duration-700">
-        <label
-          v-if="inputContentRef"
-          class="text-lg font-bold text-gray-800 dark:text-gray-200"
-          :for="id">
+        <label v-if="inputContentRef" class="font-bold" :for="id">
           {{ label }}
         </label>
       </transition>
@@ -41,7 +38,7 @@ const changeInputType = () => {
 
     <div class="relative">
       <input
-        class="outline-solid h-12 w-full rounded text-3xl shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-700 dark:bg-gray-200"
+        class="outline-solid h-12 w-full rounded text-3xl text-gray-800 shadow-[inset_2px_2px_4px_rgba(0,0,0,0.5)] outline-blue-800 dark:bg-gray-200"
         :class="[
           { 'px-2': !iconSrc },
           { 'pe-3 ps-12': iconSrc && !showPassword },

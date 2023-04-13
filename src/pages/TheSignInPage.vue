@@ -1,30 +1,30 @@
 <script setup lang="ts">
 import TheSignIn from '@/components/TheSignIn.vue'
 import TheOAuth from '@/components/TheOAuth.vue'
-import MySwitcher from '@/components/MySwitcher.vue'
+import MySwitcher from '@/components/TheSwitcher.vue'
 </script>
 
 <template>
-  <div
-    class="flex h-screen w-screen items-center justify-center text-gray-800 dark:bg-gray-800">
-    <div class="flex h-full flex-col gap-20">
-      <MySwitcher class="left-0 top-4" />
+  <div class="items-center justify-center">
+    <div class="flex h-screen flex-col">
+      <MySwitcher class="left-5 top-5 lg:mb-20" />
 
-      <div class="flex gap-28">
-        <div class="">
+      <div class="flex flex-col items-center lg:flex-row lg:space-x-12">
+        <div class="flex flex-col items-center">
           <TheSignIn />
           <TheOAuth />
         </div>
 
-        <div class="mt-5 w-[850px] space-y-24">
-          <p
-            class="text-center text-5xl font-bold text-gray-800 dark:animate-[rainbow_24s_linear_infinite]">
-            <span
-              >Безопасно загружайте и храните<br />
-              ваши важные документы <br />в Облаке!
-            </span>
-          </p>
-          <img class="x w-[850px]" src="/pictures/cloud-picture.png" />
+        <div
+          class="mt-5 flex  flex-col justify-center space-y-8 bg-gray-100 dark:bg-gray-800 lg:mt-0 lg:w-[1000px]">
+          <div
+            class="px-1 text-center text-2xl font-bold dark:animate-[rainbow_24s_linear_infinite] lg:text-5xl">
+            Безопасно загружайте и храните ваши важные документы в Облаке!
+          </div>
+
+          <div class="h-[221px] w-[393px] lg:h-[562px] lg:w-[1000px]">
+            <img src="/pictures/cloud-picture.png" />
+          </div>
         </div>
       </div>
     </div>
