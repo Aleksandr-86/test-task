@@ -16,7 +16,7 @@ import MySwitcher from '@/components/TheSwitcher.vue'
         </div>
 
         <div
-          class="mt-5 flex  flex-col justify-center space-y-8 bg-gray-100 dark:bg-gray-800 lg:mt-0 lg:w-[1000px]">
+          class="mt-5 flex  flex-col justify-center space-y-7 bg-gray-100 dark:bg-gray-800 lg:mt-0 lg:w-[1000px]">
           <div
             class="px-1 text-center text-2xl font-bold dark:animate-[rainbow_24s_linear_infinite] lg:text-5xl">
             Безопасно загружайте и храните ваши важные документы в Облаке!

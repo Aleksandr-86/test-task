@@ -53,11 +53,10 @@ const checkboxIsChecked = ref(false)
         </div>
       </div>
 
-      <div class="flex flex-col items-center">
-        <BaseButton
-          class="mt-5 w-80"
-          @click="$router.push('after-sign-in')"
-          label="Войти" />
+      <div class="flex justify-center">
+        <div class="mt-5 w-80">
+          <BaseButton @click="$router.push('after-sign-in')" label="Войти" />
+        </div>
       </div>
 
       <BaseSeparator class="mt-5" />
